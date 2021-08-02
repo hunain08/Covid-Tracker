@@ -1,0 +1,72 @@
+body{
+  background-color: rgb(250,250,250);
+}
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+.container1{
+  margin: 50px 0;
+}
+.Infected{
+ margin: 0 2% !important;
+  border-bottom: 10px solid rgba(0,0,255,0.5);
+}
+.Recovered{
+  margin: 0 2% !important;
+   border-bottom: 10px solid rgba(0,255,0,0.5);
+ }
+ .Deaths{
+  margin: 0 2% !important;
+   border-bottom: 10px solid rgba(255,0,0,0.5);
+ }
+ .charts{
+   display: flex;
+   justify-content: center;
+   width: 85%;
+ }  
+ .form-Control{
+   width: 35%;
+   margin-bottom: 30px !important;
+
+ }
+ .covid{
+   background-color: rgb(61, 60, 60);
+   display: flex;
+   text-decoration: none;
+   color: blanchedalmond;
+   font-size: 12px;
+   justify-content: center;
+   text-transform: uppercase;
+ }
+ .covid-19
+ {
+   width: 250px;
+   margin-top: 50px;
+ }
+ @media(max-width:770px){
+   .container{
+     margin: 0 10%;
+   }
+   .image{
+     width: 100%;
+   }
+   .Recovered{
+    margin: 3% 0 !important;
+   }
+   .Infected{
+    margin: 3% 0 !important;
+   }
+   .Deaths{
+    margin: 3% 0 !important;
+   }
+   .charts{
+     width: 110%;
+   }
+   .form-Control{
+     width: 50%;
+   }
+ }
